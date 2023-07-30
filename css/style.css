@@ -327,9 +327,9 @@ background:rgba(0,0,0,0.7) url('../images/moonbg.jpg');
    }
    .thumbnail img{
     width:150px;
-    height:125;
+    height:125px;
     border: solid white .2rem;
-    border-radius: 45px;
+    border-radius: 15px;
 }
     .contact{
         height:auto;
