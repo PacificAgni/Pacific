@@ -28,3 +28,10 @@ burger.addEventListener('click',()=>{
     });
 });
 
+const contact=document.getElementById('contactbtn');
+const inputname=document.getElementById('name');
+const name=inputname.value;
+contact.addEventListener('click',()=>{
+    // var na=name.value;
+    alert("Mr "+inputname.value+" we have received your request");
+})
