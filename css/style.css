@@ -323,10 +323,8 @@ background:rgba(0,0,0,0.7) url('../images/moonbg.jpg');
        width:80vw;
    }
    .thumbnail img{
-    /* width:80%;
-    height:45%; */
-    width:25vw;
-    height:25vh;
+    width:35%;
+    height:auto;
     border: solid white .2rem;
     border-radius: 15px;
 }
