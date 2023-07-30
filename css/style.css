@@ -123,6 +123,7 @@
 .section{
     height:100vh;
     display:flex;
+    margin-bottom:10px;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
@@ -306,6 +307,8 @@ background:rgba(0,0,0,0.7) url('../images/moonbg.jpg');
 }
     .text-big{
         font-size: 20px;
+        margin:10px;
+        padding:10px;
     }
     .text-small{
         font-size: 16px;
