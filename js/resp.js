@@ -16,22 +16,12 @@ burger.addEventListener('click',()=>{
     navbar.classList.toggle('h-nav-resp');
 })
 
- // Optional: If you want to add a smooth scroll effect to all anchor tags
- document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        const target = document.querySelector(this.getAttribute('href'));
-        target.scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+ 
 
 const contact=document.getElementById('contactbtn');
 const inputname=document.getElementById('name');
 const name=inputname.value;
 contact.addEventListener('click',()=>{
     // var na=name.value;
-    alert("Mr "+inputname.value+" we have received your request");
+    alert("Dear "+inputname.value+" we have received your request you'll be contacted soon");
 })
