@@ -174,7 +174,7 @@ html{
     border-radius: 15px;
 }
 #moon{
-background:rgba(0,0,0,0.7) url('../images/moonbg1.jpg');
+background:rgba(0,0,0,0.7) url('../images/moonbg.jpg');
 }
 #mars{
     background:rgba(0,0,0,0.7) url('../images/marsbg.png');
